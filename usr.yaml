@@ -1,0 +1,13 @@
+apiVersion: user.openshift.io/v1
+kind: Group
+metadata:
+  name: test-dev
+users:
+  - alice
+---
+apiVersion: user.openshift.io/v1
+kind: Group
+metadata:
+  name: test-ops
+users:
+  - bob
