@@ -13,5 +13,7 @@ subjects:
 - kind: ServiceAccount
   name: {{ $user.name }}
   namespace: {{ $role.namespace }}
+
+---
 {{- end }}
 {{- end }}
