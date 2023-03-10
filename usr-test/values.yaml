@@ -5,7 +5,7 @@ users:
         namespace: namespace-a
       - name: role-b
         namespace: namespace-b
-  - name: alicbobe
+  - name: bob
     roles:
       - name: role-c
         namespace: namespace-c

@@ -5,5 +5,7 @@ kind: Namespace
 metadata:
  
   name: {{ $role.namespace }}
+
+---  
 {{- end }}
 {{- end }}
