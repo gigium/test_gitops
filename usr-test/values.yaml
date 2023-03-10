@@ -1,5 +1,11 @@
-namespace: my-namespace
 users:
-  alice: view
-  bob: edit
-  charlie: admin
+  - name: alice
+    roles:
+      - name: role-a
+        namespace: namespace-a
+      - name: role-b
+        namespace: namespace-b
+  - name: bob
+    roles:
+      - name: role-c
+        namespace: namespace-c

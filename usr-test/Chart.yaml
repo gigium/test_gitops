@@ -1,5 +1,8 @@
 apiVersion: v2
-name: my-users-chart
-description: A Helm chart for creating multiple users and rolebindings in Kubernetes
+name: my-chart
+description: A Helm chart for creating users, roles, and rolebindings from a list in a values file.
 version: 0.1.0
 appVersion: 1.0.0
+maintainers:
+  - name: Your Name
+    email: your.email@example.com
