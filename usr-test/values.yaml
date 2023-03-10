@@ -9,3 +9,5 @@ users:
     roles:
       - name: role-c
         namespace: namespace-c
+      - name: role-d
+        namespace: namespace-a
