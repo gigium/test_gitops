@@ -5,9 +5,9 @@ users:
         namespace: namespace-a
       - name: role-b
         namespace: namespace-b
-  - name: bob
-    roles:
-      - name: role-c
-        namespace: namespace-c
-      - name: role-d
-        namespace: namespace-a
+#  - name: bob
+#    roles:
+#      - name: role-c
+#        namespace: namespace-c
+#      - name: role-d
+#        namespace: namespace-a
