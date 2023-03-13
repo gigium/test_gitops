@@ -1,10 +1,10 @@
-users: 
-  - name: alice
-    roles:
-      - name: role-a
-        namespace: namespace-a
-      - name: role-b
-        namespace: namespace-b
+users: []
+#  - name: alice
+#    roles:
+#      - name: role-a
+#        namespace: namespace-a
+#      - name: role-b
+#        namespace: namespace-b
 #  - name: bob
 #    roles:
 #      - name: role-c
