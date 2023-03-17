@@ -5,3 +5,6 @@ apps:
   - repoURL: https://github.com/gigium/test_gitops.git
     path: infrastructure/group-sync
     name: group-sync
+  - repoURL: https://github.com/gigium/test_gitops.git
+    path: infrastructure/rolebindings
+    name: rolebindings    
