@@ -1,0 +1,11 @@
+{{- range $user := .Values.users }}
+{{- range $role := $user.roles }}
+apiVersion: v1
+kind: Namespace
+metadata:
+ 
+  name: {{ $role.namespace }}
+
+---  
+{{- end }}
+{{- end }}
