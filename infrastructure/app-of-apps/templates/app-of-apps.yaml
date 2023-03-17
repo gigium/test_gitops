@@ -6,7 +6,6 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: ''
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
@@ -18,10 +17,6 @@ spec:
     automated:
       prune: true
       selfHeal: true
-  info:
-    labels:
-      app.kubernetes.io/managed-by: argocd
-      app.kubernetes.io/name: my-app-of-apps
 
 ---
 {{- end }}
