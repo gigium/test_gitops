@@ -2,6 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 apps:
-  repoURL: https://github.com/gigium/test_gitops.git
-  path: infrastructure/group-sync
-  name: group-sync
+  - repoURL: https://github.com/gigium/test_gitops.git
+    path: infrastructure/group-sync
+    name: group-sync
